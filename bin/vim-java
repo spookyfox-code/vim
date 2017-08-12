@@ -1,1 +1,15 @@
-/usr/bin/vim-java
+#!/bin/bash
+
+start_eclim_if_not_running()
+{
+  if ! ls ~/.eclim/.eclimd_instances > /dev/null 2>&1; then
+    { 
+      ~/bin/eclimd & 
+    } &> /dev/null
+  fi
+}
+
+start_eclim_if_not_running
+
+vim -u ~/.vim/.java.vimrc $@
+

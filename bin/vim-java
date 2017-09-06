@@ -12,4 +12,3 @@ start_eclim_if_not_running()
 start_eclim_if_not_running
 
 vim -u ~/.vim/.java.vimrc $@
-

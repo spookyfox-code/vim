@@ -6,6 +6,12 @@ execute pathogen#helptags()
 filetype plugin indent on
 syntax on
 
+" Return to last edit position when opening files
+autocmd BufReadPost *
+     \ if line("'\"") > 0 && line("'\"") <= line("$") |
+     \   exe "normal! g`\"" |
+     \ endif
+
 " launch NERDTree on open
 nnoremap <C-e> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
@@ -13,6 +19,7 @@ let NERDTreeShowHidden=1
 "autocmd VimEnter * wincmd w
 
 " default sets
+set hidden
 set nolist
 set number
 set ruler
@@ -20,6 +27,10 @@ set autoread
 set cursorline
 set visualbell
 set history=100
+
+" persistent undo
+set undodir=~/.vimundo/
+set undofile
 
 " Make searching better
 set gdefault      " Never have to type /g at the end of search / replace again

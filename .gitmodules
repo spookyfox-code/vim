@@ -28,3 +28,6 @@
 [submodule "bundle-clojure/vim-fireplace"]
 	path = bundle-clojure/vim-fireplace
 	url = https://github.com/tpope/vim-fireplace
+[submodule "bundle-latex/vimtex"]
+	path = bundle-latex/vimtex
+	url = https://github.com/lervag/vimtex

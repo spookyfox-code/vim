@@ -47,6 +47,7 @@ set shiftwidth=2
 set shiftround
 set expandtab
 set nolist
+set backspace=2
 
 " split bar fill char
 set fillchars+=vert:\ 

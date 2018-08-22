@@ -31,3 +31,18 @@
 [submodule "bundle-latex/vimtex"]
 	path = bundle-latex/vimtex
 	url = https://github.com/lervag/vimtex
+[submodule "bundle-asciidoc/vim-asciidoc"]
+	path = bundle-asciidoc/vim-asciidoc
+	url = https://github.com/dahu/vim-asciidoc.git
+[submodule "bundle-asciidoc/vimple"]
+	path = bundle-asciidoc/vimple
+	url = https://github.com/dahu/vimple.git
+[submodule "bundle-asciidoc/Asif"]
+	path = bundle-asciidoc/Asif
+	url = https://github.com/dahu/Asif.git
+[submodule "bundle-asciidoc/VimRegStyle"]
+	path = bundle-asciidoc/VimRegStyle
+	url = https://github.com/Raimondi/VimRegStyle.git
+[submodule "bundle-asciidoc/SyntaxRange"]
+	path = bundle-asciidoc/SyntaxRange
+	url = https://github.com/vim-scripts/SyntaxRange.git

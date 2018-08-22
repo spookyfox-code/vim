@@ -1,4 +1,4 @@
-source ~/.vim/.vimrc
+source ~/.vim/.textedit.vimrc
 
 " load LaTeX addons
 execute pathogen#infect('bundle-latex/{}')
@@ -14,5 +14,3 @@ let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_MultipleCompileFormats='aux,bib,pdf'
 let g:Tex_ViewRule_pdf =  'SumatraPDF -reuse-instance '
 
-" Spell checking
-set spell spelllang=en_us

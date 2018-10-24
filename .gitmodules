@@ -46,3 +46,6 @@
 [submodule "bundle-asciidoc/SyntaxRange"]
 	path = bundle-asciidoc/SyntaxRange
 	url = https://github.com/vim-scripts/SyntaxRange.git
+[submodule "bundle-python/python-mode"]
+	path = bundle-python/python-mode
+	url = https://github.com/python-mode/python-mode.git

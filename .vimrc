@@ -1,8 +1,9 @@
 set nocompatible
 
 " activate pathogen
-execute pathogen#infect()
-execute pathogen#helptags()
+call pathogen#infect()
+call pathogen#helptags()
+
 filetype plugin indent on
 syntax on
 

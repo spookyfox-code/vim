@@ -22,6 +22,7 @@ let NERDTreeShowHidden=1
 " default sets
 set hidden
 set nolist
+set relativenumber
 set number
 set ruler
 set autoread

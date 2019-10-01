@@ -52,3 +52,6 @@
 [submodule "bundle-code/YouCompleteMe"]
 	path = bundle-code/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle-python/vim-virtualenv"]
+	path = bundle-python/vim-virtualenv
+	url = https://github.com/plytophogy/vim-virtualenv.git

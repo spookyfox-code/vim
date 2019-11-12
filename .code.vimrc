@@ -2,6 +2,7 @@ source ~/.vim/.vimrc
 
 " load coding addons
 execute pathogen#infect('bundle-code/{}')
+"execute pathogen#infect('bundle-code-test/{}')
 
 let g:ycm_confirm_extra_conf=0
 filetype on

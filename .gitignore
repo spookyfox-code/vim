@@ -1,4 +1,3 @@
 .netrwhist
 sessions/
-/bundle/vim-salve/doc/tags/*
-
+bundle/vim-salve/doc/tags

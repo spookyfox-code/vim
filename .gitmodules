@@ -25,9 +25,6 @@
 [submodule "bundle/vim-projectionist"]
 	path = bundle/vim-projectionist
 	url = https://github.com/tpope/vim-projectionist
-[submodule "bundle-clojure/vim-fireplace"]
-	path = bundle-clojure/vim-fireplace
-	url = https://github.com/tpope/vim-fireplace
 [submodule "bundle-latex/vimtex"]
 	path = bundle-latex/vimtex
 	url = https://github.com/lervag/vimtex
@@ -49,12 +46,12 @@
 [submodule "bundle-python/python-mode"]
 	path = bundle-python/python-mode
 	url = https://github.com/python-mode/python-mode.git
-[submodule "bundle-code/YouCompleteMe"]
-	path = bundle-code/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "bundle-python/vim-virtualenv"]
 	path = bundle-python/vim-virtualenv
 	url = https://github.com/plytophogy/vim-virtualenv.git
 [submodule "bundle/csv"]
 	path = bundle/csv
 	url = https://github.com/chrisbra/csv.vim.git
+[submodule "bundle-clojure/vim-fireplace"]
+	path = bundle-clojure/vim-fireplace
+	url = git@github.com:tpope/vim-fireplace.git

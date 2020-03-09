@@ -1,7 +1,7 @@
 source ~/.vim/.code.vimrc
 
 " load Python addons
-execute pathogen#infect('bundle-python/{}')
+"execute pathogen#infect('bundle-python/{}')
 
 " Python 3 compile options
 let g:pymode_python = 'python3'

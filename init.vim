@@ -1,1 +1,1 @@
-/home/spooky/.vimrc
+.vimrc

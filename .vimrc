@@ -1,3 +1,20 @@
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                          NeoVim init file loader                           "
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""
+" Install Vim-Plug
+""
+if empty(glob("~/.config/nvim/autoload/plug.vim"))
+  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+
+for f in split(glob("~/.config/nvim/config/*.vim"), "\n")
+    exe "source" f
+endfor
 set nocompatible
 
 " activate pathogen
@@ -70,3 +87,4 @@ nmap <silent> <A-Up> :wincmd k<CR>
 nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
+

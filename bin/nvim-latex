@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nvim -u ~/.config/nvim/.latex.vimrc $@
+nvim -u /home/spooky/.config/nvim/.latex.vimrc $@

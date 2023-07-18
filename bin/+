@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# TODO: start Leiningen
+#lein repl :headless &
+
+vim -u ~/.config/nvim/.clojure.vimrc $@
